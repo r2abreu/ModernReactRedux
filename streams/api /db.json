@@ -1,0 +1,20 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is my stream",
+      "id": 1
+    },
+    {
+      "title": "Arturo ",
+      "description": "El Guapo",
+      "id": 2
+    },
+    {
+      "title": "Soy Simon Bolivar",
+      "description": "Esto fue creado por mi, mira el userId",
+      "userId": null,
+      "id": 3
+    }
+  ]
+}
