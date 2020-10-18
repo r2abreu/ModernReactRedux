@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
+import LanguageContext from '../context/LanguageContext'
 
-export default () => {
-    return (
-        <React.Fragment>
-            <input type="submit" value="Submit" />
-        </React.Fragment>
-    )
+class Button extends Component  {
+
+    static contextType = LanguageContext;
+
+    render () {
+        const text = this.context === 'english' ? 'Submit' : 'Aceptar'
+        return (
+        <button className="ui button primary">{text}</button>
+        )
+    }
 }
+
+export default Button;

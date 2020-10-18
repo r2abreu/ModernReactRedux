@@ -1,10 +1,10 @@
 import React from 'react';
-import Button from './Field'
-import Field from './Button'
+import Button from './Button'
+import Field from './Field'
 
 export default () => {
     return (
-        <div>
+        <div className="ui form">
             <Field />
             <Button />
         </div>
